@@ -1,12 +1,8 @@
 streamlit==1.31.1
 
-# LangChain (안 터지는 조합)
 langchain==0.1.20
 langchain-core==0.1.53
 langchain-community==0.0.38
-
-# Vector DB
-chromadb==0.4.24
 
 numpy==1.24.4
 
@@ -14,5 +10,5 @@ numpy==1.24.4
 pydantic==1.10.13
 typing-extensions==4.7.1
 
-# UI / logging
+# UI
 rich==14.2.0
