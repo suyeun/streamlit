@@ -1,14 +1,12 @@
 streamlit==1.31.1
 
-# LangChain (0.1.x 안정 조합)
 langchain==0.1.20
 langchain-core==0.1.53
 langchain-community==0.0.38
 langchain-openai==0.0.8
 
-# Cloud-safe numpy
 numpy==1.24.4
-
-# LangChain 호환
 pydantic==1.10.13
-typing-extensions==4.7.
+typing-extensions==4.7.1
+
+rich==14.2.0
