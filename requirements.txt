@@ -1,6 +1,6 @@
 streamlit==1.31.1
 
-# LangChain core stack (검증된 조합)
+# LangChain (안 터지는 조합)
 langchain==0.1.20
 langchain-core==0.1.53
 langchain-community==0.0.38
@@ -8,9 +8,11 @@ langchain-community==0.0.38
 # Vector DB
 chromadb==0.4.24
 
-# 기타 LangChain 필수
-pydantic==1.10.13
-typing-extensions>=4.5.0
+numpy==1.24.4
 
-# 출력/로그
+# LangChain 호환
+pydantic==1.10.13
+typing-extensions==4.7.1
+
+# UI / logging
 rich==14.2.0
